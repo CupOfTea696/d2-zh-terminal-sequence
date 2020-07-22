@@ -1,0 +1,43 @@
+{
+  "main": "src/client/js/index.js",
+  "scripts": {
+    "webpack": "NODE_ENV=development webpack --progress --hide-modules",
+    "dev": "NODE_ENV=development webpack --watch --progress --hide-modules",
+    "start": "webpack-dev-server",
+    "production": "NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "debounce": "^1.2.0",
+    "dexie": "^3.0.1",
+    "dexie-relationships": "^1.2.11",
+    "indexeddb-orm": "^3.2.1",
+    "lazy.js": "^0.5.1",
+    "mousetrap": "^1.6.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.3",
+    "autoprefixer": "^9.8.2",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.2",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.6.0",
+    "glob-all": "^3.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "regenerator-runtime": "^0.13.5",
+    "sass": "^1.26.8",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-fix-style-only-entries": "^0.5.1"
+  }
+}
